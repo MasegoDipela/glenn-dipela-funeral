@@ -30,6 +30,7 @@ export type ProgrammeItem = {
   time?: string;
   title: string;
   detail?: string;
+  children?: string[];
 };
 
 export type ProgrammePart = {
@@ -61,15 +62,15 @@ export const programme: ProgrammePart[] = [
       { title: "Prayer" },
       {
         title: "Family Representatives",
-        detail: "Dipela Family · Duba Family",
+        children: ["Dipela Family", "Duba Family"],
       },
       {
         title: "Words of Condolences",
-        detail: "Neighbour · Friend · Seshego Taxi Association",
+        children: ["Neighbour", "Friend", "Seshego Taxi Association"],
       },
       {
         title: "Tributes",
-        detail: "Siblings · Children · Message by Wife",
+        children: ["Siblings", "Children", "Message by Wife"],
       },
       { title: "Obituary" },
       { title: "Sermon" },

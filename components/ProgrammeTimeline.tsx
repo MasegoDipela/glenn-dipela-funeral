@@ -58,6 +58,24 @@ export default function ProgrammeTimeline() {
                             {item.detail}
                           </p>
                         ) : null}
+                        {item.children && item.children.length > 0 ? (
+                          <ul className="mt-2 space-y-1">
+                            {item.children.map((child, ci) => (
+                              <li
+                                key={ci}
+                                className="flex items-baseline gap-2 text-sm text-cocoa/85"
+                              >
+                                <span
+                                  aria-hidden="true"
+                                  className="text-gold/70"
+                                >
+                                  ·
+                                </span>
+                                <span>{child}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        ) : null}
                       </div>
                     </li>
                   ))}
