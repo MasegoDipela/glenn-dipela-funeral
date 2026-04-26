@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { person, heroSubtitle, announcement } from "@/data/memorial";
 import DownloadProgrammeButton from "./DownloadProgrammeButton";
 import PortraitImage from "./PortraitImage";
@@ -82,12 +83,12 @@ export default function Hero() {
             </div>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 items-stretch sm:items-center justify-center lg:justify-start">
-              <a
-                href="#programme"
+              <Link
+                href="/programme"
                 className="inline-flex items-center justify-center rounded-full bg-charcoal text-ivory border border-charcoal px-7 py-3 text-[12px] tracking-wider2 uppercase hover:bg-cocoa transition-colors"
               >
                 View Programme
-              </a>
+              </Link>
               <DownloadProgrammeButton variant="soft">
                 Download Programme
               </DownloadProgrammeButton>

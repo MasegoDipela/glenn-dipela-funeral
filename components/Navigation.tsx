@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { person, programmePdfPath } from "@/data/memorial";
 
 const links = [
-  { href: "#programme", label: "Programme" },
+  { href: "/programme", label: "Programme" },
   { href: "#obituary", label: "Obituary" },
   { href: "#information", label: "Information" },
   { href: "#tribute", label: "Tribute" },
@@ -44,23 +44,26 @@ export default function Navigation() {
         <ul className="hidden md:flex items-center gap-8 text-[13px] tracking-wideish uppercase text-cocoa">
           {links.map((l) => (
             <li key={l.href}>
-              <a
-                href={l.href}
-                className="hover:text-gold transition-colors"
-              >
-                {l.label}
-              </a>
+              {l.href.startsWith("/") ? (
+                <Link href={l.href} className="hover:text-gold transition-colors">
+                  {l.label}
+                </Link>
+              ) : (
+                <a href={l.href} className="hover:text-gold transition-colors">
+                  {l.label}
+                </a>
+              )}
             </li>
           ))}
         </ul>
 
         <div className="hidden md:flex items-center gap-3">
-          <a
-            href="#programme"
+          <Link
+            href="/programme"
             className="text-[13px] tracking-wideish uppercase text-charcoal hover:text-gold"
           >
             View Programme
-          </a>
+          </Link>
           <a
             href={programmePdfPath}
             download

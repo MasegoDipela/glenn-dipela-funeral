@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { programmePdfPath } from "@/data/memorial";
 
 export default function MobileActionBar() {
@@ -8,12 +9,12 @@ export default function MobileActionBar() {
       aria-label="Quick actions"
     >
       <div className="grid grid-cols-2">
-        <a
-          href="#programme"
+        <Link
+          href="/programme"
           className="py-4 text-center text-[12px] tracking-wider2 uppercase text-charcoal active:bg-parchment"
         >
           View Programme
-        </a>
+        </Link>
         <a
           href={programmePdfPath}
           download

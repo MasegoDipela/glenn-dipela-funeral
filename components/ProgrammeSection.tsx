@@ -31,12 +31,6 @@ export default function ProgrammeSection() {
           </p>
           <div className="mt-7 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
             <DownloadProgrammeButton variant="soft" />
-            <Link
-              href="/programme"
-              className="inline-flex items-center justify-center rounded-full bg-transparent text-charcoal border border-charcoal/30 px-7 py-3 text-[12px] tracking-wider2 uppercase hover:border-charcoal hover:bg-parchment transition-colors"
-            >
-              Print-Friendly Version
-            </Link>
           </div>
           <p className="mt-5 text-xs text-cocoa/70">
             If the download does not start, please ask a family
