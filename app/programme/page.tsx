@@ -137,6 +137,14 @@ export default function ProgrammePage() {
             If the download does not start, please ask a family representative
             for the printed programme.
           </p>
+          <div className="mt-8 no-print flex justify-center">
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center rounded-full bg-charcoal text-ivory border border-charcoal px-7 py-3 text-[12px] tracking-wider2 uppercase hover:bg-cocoa transition-colors"
+            >
+              Back to Memorial
+            </Link>
+          </div>
         </footer>
       </article>
     </main>
