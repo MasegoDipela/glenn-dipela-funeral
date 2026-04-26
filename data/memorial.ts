@@ -58,22 +58,25 @@ export const programme: ProgrammePart[] = [
     heading: "Church Service",
     venue: "Regina Pacis Hall, Seshego",
     items: [
-      { title: "Remarks", detail: "Programme Director" },
-      { title: "Prayer" },
+      { time: "07:15 – 07:20", title: "Remarks", detail: "Programme Director" },
+      { time: "07:20 – 07:25", title: "Prayer" },
       {
+        time: "07:25 – 07:45",
         title: "Family Representatives",
         children: ["Dipela Family", "Duba Family"],
       },
       {
+        time: "07:45 – 08:00",
         title: "Words of Condolences",
         children: ["Neighbour", "Friend", "Seshego Taxi Association"],
       },
       {
+        time: "08:00 – 08:20",
         title: "Tributes",
         children: ["Siblings", "Children", "Message by Wife"],
       },
-      { title: "Obituary" },
-      { title: "Sermon" },
+      { time: "08:20 – 08:30", title: "Obituary" },
+      { time: "08:30 – 09:30", title: "Sermon" },
     ],
   },
   {
@@ -82,10 +85,10 @@ export const programme: ProgrammePart[] = [
     heading: "Burial",
     venue: "Silicon Cemetery",
     items: [
-      { title: "Burial Rites" },
-      { title: "Laying of Wreaths" },
-      { title: "Vote of Thanks" },
-      { title: "Closing Prayer" },
+      { time: "10:00 – 10:20", title: "Burial Rites" },
+      { time: "10:20 – 10:40", title: "Laying of Wreaths" },
+      { time: "10:40 – 10:50", title: "Vote of Thanks" },
+      { time: "10:50 – 11:00", title: "Closing Prayer" },
     ],
   },
 ];
