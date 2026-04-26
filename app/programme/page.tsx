@@ -13,7 +13,19 @@ import PrintButton from "@/components/PrintButton";
 export const metadata: Metadata = {
   title: "Order of Service · Geremane Joshua Glenn Dipela",
   description:
-    "Printable order of service for the funeral of Geremane Joshua Glenn Dipela.",
+    "Printable order of service for the funeral of Geremane Joshua Glenn Dipela. Burial 01 May 2026, Silicon Cemetery.",
+  openGraph: {
+    title: "Order of Service · Geremane Joshua Glenn Dipela",
+    description:
+      "Printable order of service for the funeral of Malome Glenn. Burial 01 May 2026, Silicon Cemetery.",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Order of Service · Geremane Joshua Glenn Dipela",
+    description:
+      "Printable order of service for the funeral of Malome Glenn.",
+  },
 };
 
 export default function ProgrammePage() {

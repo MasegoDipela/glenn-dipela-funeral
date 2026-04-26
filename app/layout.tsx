@@ -17,39 +17,52 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
+  // Replace this URL with the actual deployed domain so absolute social URLs resolve correctly.
   metadataBase: new URL("https://malome-glenn.memorial"),
-  title: "In Loving Memory of Geremane Joshua Glenn Dipela",
+  title: {
+    default: "In Loving Memory of Geremane Joshua Glenn Dipela",
+    template: "%s · In Loving Memory of Malome Glenn",
+  },
   description:
-    "Funeral programme and obituary for Geremane Joshua Glenn Dipela, affectionately known as Malome Glenn.",
+    "Funeral programme and obituary for Geremane Joshua Glenn Dipela, affectionately known as Malome Glenn. 27 July 1971 – 21 April 2026. Burial 01 May 2026, Silicon Cemetery.",
   applicationName: "In Loving Memory — Malome Glenn",
   authors: [{ name: "The Dipela Family" }],
+  keywords: [
+    "Geremane Joshua Glenn Dipela",
+    "Malome Glenn",
+    "Dipela",
+    "Funeral",
+    "Memorial",
+    "Obituary",
+    "Order of Service",
+    "Seshego",
+  ],
   openGraph: {
     title: "In Loving Memory of Geremane Joshua Glenn Dipela",
     description:
-      "Funeral programme and obituary for Geremane Joshua Glenn Dipela, affectionately known as Malome Glenn. 27 July 1971 – 21 April 2026.",
+      "Affectionately known as Malome Glenn · 27 July 1971 – 21 April 2026. Funeral programme and obituary. Burial 01 May 2026, Silicon Cemetery.",
     type: "website",
     locale: "en_ZA",
     siteName: "In Loving Memory — Malome Glenn",
-    images: [
-      {
-        url: "/images/malome-glenn-primary.jpg",
-        width: 1200,
-        height: 1200,
-        alt: "Portrait of Geremane Joshua Glenn Dipela",
-      },
-    ],
+    // The OG image is generated automatically from app/opengraph-image.tsx
   },
   twitter: {
     card: "summary_large_image",
     title: "In Loving Memory of Geremane Joshua Glenn Dipela",
     description:
-      "Funeral programme and obituary for Malome Glenn. 27 July 1971 – 21 April 2026.",
-    images: ["/images/malome-glenn-primary.jpg"],
+      "Malome Glenn · 27 July 1971 – 21 April 2026. Funeral programme and obituary.",
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
   },
   robots: { index: true, follow: true },
+  formatDetection: {
+    telephone: false,
+    address: false,
+    email: false,
+  },
 };
 
 export const viewport: Viewport = {
