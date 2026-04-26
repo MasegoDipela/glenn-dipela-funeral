@@ -4,7 +4,7 @@
 export const person = {
   fullName: "Geremane Joshua Glenn Dipela",
   shortName: "Glenn Dipela",
-  alsoKnownAs: "Malome Glenn",
+  alsoKnownAs: "Bra Glenn",
   sunrise: "27 July 1971",
   sunset: "21 April 2026",
   yearsRange: "1971 – 2026",
@@ -95,22 +95,21 @@ export const programme: ProgrammePart[] = [
 
 // Obituary, lightly polished for grammar and flow while preserving voice.
 export const obituary: string[] = [
-  "Geremane Joshua Glenn Dipela (27 July 1971 – 21 April 2026), affectionately known as “Malome Glenn”, departed this life on 21 April 2026 after a short illness.",
-  "Born in 1971, the second child of the late Mr Chris Lefi Dipela and Mrs Mothabela Martha Dipela, Glenn lived a life marked by humility, kindness, and a deep sense of respect for others. He completed his schooling up to matric at Pax Institute, the Catholic Boys School. From a young age, his faith was evident: raised in the Catholic Church, he served as an altar boy, laying a strong spiritual foundation that remained with him throughout his life.",
-  "Glenn will be remembered as a joyful soul, full of jokes, laughter, and warmth. His presence brought light to those around him, and he had a special way of making people feel at ease. A loving and peaceful man, he consistently advocated for harmony and unity in his family and community. His obedience, respect, and calm nature earned him admiration from all who knew him.",
-  "He found love and companionship in his wife, Mma Moloto, Meriam Duba, with whom he built a beautiful family. Their union was blessed with three children: two daughters, Tiny and Kopanang, and a son, Thabang. Glenn was a devoted husband and a caring father who cherished his family deeply.",
-  "Professionally, Glenn worked for a brief period in sales and marketing within the publishing sector, where he was employed by Shutter and Shooter, Heinemann, and Nutrient Publishers, mostly on temporary contracts. He was also entrusted with the responsibility of managing the family bottle store business at Ga Hlahla, a role he carried out with diligence and commitment until its eventual sale. He later became a dedicated member of the Seshego Taxi Association, where he was a full member and actively involved in the industry.",
-  "He leaves behind his beloved wife and children, as well as his siblings, Rakgadi Refilwe and Ramogolo Junior Mokone Dipela. His passing leaves a profound void in the hearts of his family, friends, and all who had the privilege of knowing him.",
-  "Though his journey on earth has come to an end, his legacy of love, laughter, and peace will live on in the lives he touched.",
-  "Rest in eternal peace, Mokone. You will forever be remembered and deeply missed.",
+  "Geremane Joshua Glenn Dipela, affectionately known as Bra Glenn, was born on 27 July 1971. He was the second-born son of the late Christopher and Martha Dipela.",
+  "He completed his schooling at Pax College, the Catholic Boys School. From a young age, his faith was evident. He served as an altar boy, laying a strong spiritual foundation that remained with him throughout his life.",
+  "Professionally, he worked for a brief period in sales and marketing within the publishing sector, where he was employed by Shutter and Shooter, Heinaman, and Nutrient Publishers. He then managed one of the family business ventures in Ga-Hlahla, a role he cherished until its eventual sale. He later became a member of the Seshego Polokwane Taxi Association, where he was a full and active member, and where it gave him a platform to thrive in business.",
+  "He leaves behind his beloved wife, Mamoloto Meriam Dipela. Together they were blessed with two daughters, Tiny and Kopanang, a son, Thabang, and two grandchildren, Kgothatso and Ayanda, together with his siblings, Junior and Refiloe.",
+  "His passing leaves a profound void in the hearts of his family, friends, and all who had the privilege of knowing him.",
+  "Though his journey on earth has come to an end, his legacy of love, laughter, and peace will live on in the hearts he touched.",
+  "Rest in eternal peace, Mokone. You’ll forever be remembered and missed.",
 ];
 
 export const pullQuotes = [
-  "His legacy of love, laughter, and peace will live on.",
-  "A joyful soul, full of jokes, laughter, and warmth.",
+  "From a young age, his faith was evident.",
+  "His legacy of love, laughter, and peace will live on in the hearts he touched.",
 ];
 
 export const closing = {
   line1: "Rest in eternal peace, Mokone.",
-  line2: "You will forever be remembered and deeply missed.",
+  line2: "You’ll forever be remembered and missed.",
 };

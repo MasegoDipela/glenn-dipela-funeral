@@ -38,7 +38,7 @@ export default function Navigation() {
           aria-label={`In loving memory of ${person.shortName}`}
         >
           <span className="text-gold">In Loving Memory</span>
-          <span className="hidden sm:inline text-cocoa/70"> · Malome Glenn</span>
+          <span className="hidden sm:inline text-cocoa/70"> · {person.alsoKnownAs}</span>
         </Link>
 
         <ul className="hidden md:flex items-center gap-8 text-[13px] tracking-wideish uppercase text-cocoa">

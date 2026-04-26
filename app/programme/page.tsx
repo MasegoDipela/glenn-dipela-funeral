@@ -17,14 +17,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Order of Service · Geremane Joshua Glenn Dipela",
     description:
-      "Printable order of service for the funeral of Malome Glenn. Burial 01 May 2026, Silicon Cemetery.",
+      `Printable order of service for the funeral of ${person.alsoKnownAs}. Burial 01 May 2026, Silicon Cemetery.`,
     type: "article",
   },
   twitter: {
     card: "summary_large_image",
     title: "Order of Service · Geremane Joshua Glenn Dipela",
     description:
-      "Printable order of service for the funeral of Malome Glenn.",
+      `Printable order of service for the funeral of ${person.alsoKnownAs}.`,
   },
 };
 
