@@ -1,4 +1,4 @@
-// Memorial data — single source of truth for the site.
+// Memorial data, single source of truth for the site.
 // Update names, dates and times here and the rest of the site will follow.
 
 export const person = {
@@ -94,7 +94,7 @@ export const programme: ProgrammePart[] = [
 export const obituary: string[] = [
   "Geremane Joshua Glenn Dipela (27 July 1971 – 21 April 2026), affectionately known as “Malome Glenn”, departed this life on 21 April 2026 after a short illness.",
   "Born in 1971, the second child of the late Mr Chris Lefi Dipela and Mrs Mothabela Martha Dipela, Glenn lived a life marked by humility, kindness, and a deep sense of respect for others. He completed his schooling up to matric at Pax Institute, the Catholic Boys School. From a young age, his faith was evident: raised in the Catholic Church, he served as an altar boy, laying a strong spiritual foundation that remained with him throughout his life.",
-  "Glenn will be remembered as a joyful soul — full of jokes, laughter, and warmth. His presence brought light to those around him, and he had a special way of making people feel at ease. A loving and peaceful man, he consistently advocated for harmony and unity in his family and community. His obedience, respect, and calm nature earned him admiration from all who knew him.",
+  "Glenn will be remembered as a joyful soul, full of jokes, laughter, and warmth. His presence brought light to those around him, and he had a special way of making people feel at ease. A loving and peaceful man, he consistently advocated for harmony and unity in his family and community. His obedience, respect, and calm nature earned him admiration from all who knew him.",
   "He found love and companionship in his wife, Mma Moloto, Meriam Duba, with whom he built a beautiful family. Their union was blessed with three children: two daughters, Tiny and Kopanang, and a son, Thabang. Glenn was a devoted husband and a caring father who cherished his family deeply.",
   "Professionally, Glenn worked for a brief period in sales and marketing within the publishing sector, where he was employed by Shutter and Shooter, Heinemann, and Nutrient Publishers, mostly on temporary contracts. He was also entrusted with the responsibility of managing the family bottle store business at Ga Hlahla, a role he carried out with diligence and commitment until its eventual sale. He later became a dedicated member of the Seshego Taxi Association, where he was a full member and actively involved in the industry.",
   "He leaves behind his beloved wife and children, as well as his siblings, Rakgadi Refilwe and Ramogolo Junior Mokone Dipela. His passing leaves a profound void in the hearts of his family, friends, and all who had the privilege of knowing him.",
@@ -104,7 +104,7 @@ export const obituary: string[] = [
 
 export const pullQuotes = [
   "His legacy of love, laughter, and peace will live on.",
-  "A joyful soul — full of jokes, laughter, and warmth.",
+  "A joyful soul, full of jokes, laughter, and warmth.",
 ];
 
 export const closing = {
