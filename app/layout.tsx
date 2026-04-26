@@ -17,8 +17,7 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  // Replace this URL with the actual deployed domain so absolute social URLs resolve correctly.
-  metadataBase: new URL("https://malome-glenn.memorial"),
+  metadataBase: new URL("https://www.dipelafamily.info"),
   title: {
     default: "In Loving Memory of Geremane Joshua Glenn Dipela",
     template: "%s · In Loving Memory of Malome Glenn",
