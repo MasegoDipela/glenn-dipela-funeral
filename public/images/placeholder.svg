@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#EFE3CC"/>
+      <stop offset="100%" stop-color="#D8C9AE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FAF6EF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FAF6EF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <g fill="#A8907A" opacity="0.55">
+    <circle cx="400" cy="380" r="140"/>
+    <path d="M180 1000 C 180 720, 280 600, 400 600 C 520 600, 620 720, 620 1000 Z"/>
+  </g>
+  <g font-family="Cormorant Garamond, Georgia, serif" text-anchor="middle" fill="#6B5544">
+    <text x="400" y="900" font-size="28" font-style="italic" opacity="0.75">Portrait Placeholder</text>
+    <text x="400" y="940" font-size="16" letter-spacing="4" opacity="0.55">REPLACE WITH MALOME-GLENN-PRIMARY.JPG</text>
+  </g>
+</svg>
