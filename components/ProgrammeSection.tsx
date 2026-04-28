@@ -1,7 +1,7 @@
 import Link from "next/link";
 import DownloadProgrammeButton from "./DownloadProgrammeButton";
 import ProgrammeTimeline from "./ProgrammeTimeline";
-import { burial } from "@/data/memorial";
+import { burial, programmeDirector } from "@/data/memorial";
 
 export default function ProgrammeSection() {
   return (
@@ -27,7 +27,10 @@ export default function ProgrammeSection() {
               {burial.date}
             </span>
             <span className="mx-3 text-gold">·</span>
-            From the family home to {burial.cemetery}.
+            From the family home to {burial.churchVenue}.
+          </p>
+          <p className="mt-3 text-sm text-cocoa/80">
+            Programme Director: {programmeDirector}
           </p>
           <div className="mt-7 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
             <DownloadProgrammeButton variant="soft" />

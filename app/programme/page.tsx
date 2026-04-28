@@ -6,6 +6,7 @@ import {
   burial,
   announcement,
   closing,
+  programmeDirector,
 } from "@/data/memorial";
 import DownloadProgrammeButton from "@/components/DownloadProgrammeButton";
 import PrintButton from "@/components/PrintButton";
@@ -64,6 +65,9 @@ export default function ProgrammePage() {
           </p>
           <p className="mt-6 max-w-2xl mx-auto text-[15px] leading-relaxed text-charcoal/85">
             {announcement}
+          </p>
+          <p className="mt-4 text-sm text-cocoa/80">
+            Programme Director: {programmeDirector}
           </p>
 
           <div className="mt-8 mx-auto max-w-md grid grid-cols-2 gap-x-6 gap-y-3 text-sm">

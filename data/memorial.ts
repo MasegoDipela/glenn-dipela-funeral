@@ -4,7 +4,7 @@
 export const person = {
   fullName: "Geremane Joshua Glenn Dipela",
   shortName: "Glenn Dipela",
-  alsoKnownAs: "Bra Glenn",
+  alsoKnownAs: "Glenzito",
   sunrise: "27 July 1971",
   sunset: "21 April 2026",
   yearsRange: "1971 – 2026",
@@ -25,6 +25,8 @@ export const heroSubtitle =
 
 export const programmePdfPath =
   "/programmes/joshua-glenn-dipela-order-of-service.pdf";
+
+export const programmeDirector = "Mr Lesetja Mashao";
 
 export type ProgrammeItem = {
   time?: string;
@@ -58,25 +60,45 @@ export const programme: ProgrammePart[] = [
     heading: "Church Service",
     venue: "Regina Pacis Hall, Seshego",
     items: [
-      { time: "07:15 – 07:20", title: "Remarks", detail: "Programme Director" },
-      { time: "07:20 – 07:25", title: "Prayer" },
+      {
+        time: "07:15 – 07:20",
+        title: "Remarks",
+        detail: "Programme Director: Mr Lesetja Mashao",
+      },
+      {
+        time: "07:20 – 07:25",
+        title: "Opening Prayer",
+        detail: "Rev Father Galane",
+      },
       {
         time: "07:25 – 07:45",
         title: "Family Representatives",
-        children: ["Dipela Family", "Duba Family"],
+        children: [
+          "Dipela Family: Kgabo Dipela (Ga Setati)",
+          "Duba Family: Sydney Duba",
+        ],
       },
       {
         time: "07:45 – 08:00",
         title: "Words of Condolences",
-        children: ["Neighbour", "Friend", "Seshego Taxi Association"],
+        children: [
+          "Neighbour: Micheal Molotsane",
+          "Ward member: Khatho Mathoho",
+          "Friend: Joe Manamela",
+          "Seshego Taxi Association: Takalani United Nemahungani",
+        ],
       },
       {
         time: "08:00 – 08:20",
         title: "Tributes",
-        children: ["Siblings", "Children", "Message by Wife"],
+        children: [
+          "Siblings: Refiloe Dipela",
+          "Children: Tiny Radebe",
+          "Message by Wife",
+        ],
       },
-      { time: "08:20 – 08:30", title: "Obituary" },
-      { time: "08:30 – 09:30", title: "Sermon" },
+      { time: "08:20 – 08:30", title: "Obituary", detail: "Mothabela Dipela" },
+      { time: "08:30 – 09:30", title: "Sermon", detail: "Rev Father Galane" },
     ],
   },
   {
@@ -85,23 +107,35 @@ export const programme: ProgrammePart[] = [
     heading: "Burial",
     venue: "Silicon Cemetery",
     items: [
-      { time: "10:00 – 10:20", title: "Burial Rites" },
-      { time: "10:20 – 10:40", title: "Laying of Wreaths" },
-      { time: "10:40 – 10:50", title: "Vote of Thanks" },
-      { time: "10:50 – 11:00", title: "Closing Prayer" },
+      {
+        time: "10:00 – 10:20",
+        title: "Burial Rites",
+        detail: "Rev Father Galane",
+      },
+      {
+        time: "10:20 – 10:40",
+        title: "Laying of Wreaths",
+        children: ["Kgothatso", "Relebogile", "Ayanda", "Tokollo"],
+      },
+      { time: "10:40 – 10:50", title: "Vote of Thanks", detail: "Enoch Dipela" },
+      {
+        time: "10:50 – 11:00",
+        title: "Closing Prayer",
+        detail: "Rev Father Galane",
+      },
     ],
   },
 ];
 
 // Obituary, lightly polished for grammar and flow while preserving voice.
 export const obituary: string[] = [
-  "Geremane Joshua Glenn Dipela, affectionately known as Bra Glenn, was born on 27 July 1971. He was the second-born son of the late Christopher and Martha Dipela.",
+  "Geremane Joshua Glenn Dipela, affectionately known as Glenzito, was born on 27 July 1971. He was the second-born son of the late Christopher and Martha Dipela.",
   "He completed his schooling at Pax College, the Catholic Boys School. From a young age, his faith was evident. He served as an altar boy, laying a strong spiritual foundation that remained with him throughout his life.",
-  "Professionally, he worked for a brief period in sales and marketing within the publishing sector, where he was employed by Shutter and Shooter, Heinaman, and Nutrient Publishers. He then managed one of the family business ventures in Ga-Hlahla, a role he cherished until its eventual sale. He later became a member of the Seshego Polokwane Taxi Association, where he was a full and active member, and where it gave him a platform to thrive in business.",
-  "He leaves behind his beloved wife, Mamoloto Meriam Dipela. Together they were blessed with two daughters, Tiny and Kopanang, a son, Thabang, and two grandchildren, Kgothatso and Ayanda, together with his siblings, Junior and Refiloe.",
+  "Professionally, he worked for a brief period in sales and marketing within the publishing sector, where he was employed by Shutter and Shooter, Heinaman, and Nutrient Publishers. He then managed one of the family business ventures in Ga-Hlahla, a role he cherished until its eventual sale. He then became a member of the Seshego Polokwane Taxi Association, where he was a full and active member.",
+  "He leaves behind his beloved wife, Mamoloto Meriam Dipela. They were blessed with two daughters, Tiny and Kopanang; a son, Thabang; and two grandchildren, Kgothatso and Ayanda, together with his siblings, Mokone Junior and Refiloe.",
   "His passing leaves a profound void in the hearts of his family, friends, and all who had the privilege of knowing him.",
   "Though his journey on earth has come to an end, his legacy of love, laughter, and peace will live on in the hearts he touched.",
-  "Rest in eternal peace, Mokone. You’ll forever be remembered and missed.",
+  "Rest in eternal peace, Mokone. You will forever be remembered and deeply missed.",
 ];
 
 export const pullQuotes = [
@@ -111,5 +145,5 @@ export const pullQuotes = [
 
 export const closing = {
   line1: "Rest in eternal peace, Mokone.",
-  line2: "You’ll forever be remembered and missed.",
+  line2: "You will forever be remembered and deeply missed.",
 };
