@@ -24,7 +24,7 @@ Person:
 - Also known as: Malome Glenn
 - Date of birth / Sunrise: 27 July 1971
 - Date of passing / Sunset: 21 April 2026
-- Burial date: 01 May 2026
+- Burial date: 02 May 2026
 - Cemetery: Silicon Cemetery
 - Home venue: 198F Luthuli Park
 - Church service venue: Regina Pacis Hall, Seshego
@@ -176,7 +176,7 @@ Create a best-in-class obituary reading experience:
 
 PRACTICAL INFORMATION SECTION
 Add a simple section with:
-- Burial: 01 May 2026
+- Burial: 02 May 2026
 - Home: 198F Luthuli Park
 - Church Service: Regina Pacis Hall, Seshego
 - Cemetery: Silicon Cemetery

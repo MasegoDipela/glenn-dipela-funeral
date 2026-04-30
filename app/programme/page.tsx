@@ -14,11 +14,11 @@ import PrintButton from "@/components/PrintButton";
 export const metadata: Metadata = {
   title: "Order of Service · Geremane Joshua Glenn Dipela",
   description:
-    "Printable order of service for the funeral of Geremane Joshua Glenn Dipela. Burial 01 May 2026, Silicon Cemetery.",
+    `Printable order of service for the funeral of Geremane Joshua Glenn Dipela. Burial ${burial.date}, ${burial.cemetery}.`,
   openGraph: {
     title: "Order of Service · Geremane Joshua Glenn Dipela",
     description:
-      `Printable order of service for the funeral of ${person.alsoKnownAs}. Burial 01 May 2026, Silicon Cemetery.`,
+      `Printable order of service for the funeral of ${person.alsoKnownAs}. Burial ${burial.date}, ${burial.cemetery}.`,
     type: "article",
   },
   twitter: {

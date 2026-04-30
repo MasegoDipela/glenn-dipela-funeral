@@ -11,7 +11,7 @@ export const person = {
 };
 
 export const burial = {
-  date: "01 May 2026",
+  date: "02 May 2026",
   cemetery: "Silicon Cemetery",
   homeVenue: "198F Luthuli Park",
   churchVenue: "Regina Pacis Hall, Seshego",

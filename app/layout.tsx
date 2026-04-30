@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
-import { person } from "@/data/memorial";
+import { burial, person } from "@/data/memorial";
 import "./globals.css";
 
 const serif = Cormorant_Garamond({
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: `%s · In Loving Memory of ${person.alsoKnownAs}`,
   },
   description:
-    `Funeral programme and obituary for Geremane Joshua Glenn Dipela, affectionately known as ${person.alsoKnownAs}. 27 July 1971 – 21 April 2026. Burial 01 May 2026, Silicon Cemetery.`,
+    `Funeral programme and obituary for Geremane Joshua Glenn Dipela, affectionately known as ${person.alsoKnownAs}. 27 July 1971 – 21 April 2026. Burial ${burial.date}, ${burial.cemetery}.`,
   applicationName: `In Loving Memory — ${person.alsoKnownAs}`,
   authors: [{ name: "The Dipela Family" }],
   keywords: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "In Loving Memory of Geremane Joshua Glenn Dipela",
     description:
-      `Affectionately known as ${person.alsoKnownAs} · 27 July 1971 – 21 April 2026. Funeral programme and obituary. Burial 01 May 2026, Silicon Cemetery.`,
+      `Affectionately known as ${person.alsoKnownAs} · 27 July 1971 – 21 April 2026. Funeral programme and obituary. Burial ${burial.date}, ${burial.cemetery}.`,
     type: "website",
     locale: "en_ZA",
     siteName: `In Loving Memory — ${person.alsoKnownAs}`,
